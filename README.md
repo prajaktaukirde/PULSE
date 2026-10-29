@@ -89,6 +89,3 @@ npm run dev
 
 ---
 
-## 📜 License
-
-MIT License. See [LICENSE](LICENSE) for details.
