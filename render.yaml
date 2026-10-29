@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: pulse-network-visualizer
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    region: oregon
+    healthCheckPath: /

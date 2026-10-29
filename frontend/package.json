@@ -1,0 +1,38 @@
+{
+  "name": "pulse-network-visualizer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@pixi/react": "latest",
+    "@types/lodash": "^4.17.16",
+    "ip-address": "^10.0.1",
+    "lodash": "^4.18.0",
+    "pixi.js": "latest",
+    "prismjs": "^1.30.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-icons": "^5.5.0",
+    "react-simple-code-editor": "^0.14.1",
+    "zustand": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/prismjs": "^1.26.5",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vite-tsconfig-paths": "^3.5.0",
+    "vitest": "^4.1.10"
+  }
+}
